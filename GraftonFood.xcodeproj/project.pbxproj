@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A030B6326AD26740005CCAE /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A030B6226AD26740005CCAE /* SettingsController.swift */; };
+		1A030B6926AD2ABB0005CCAE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1D5C4626AB986A000FE4AA /* WidgetKit.framework */; };
+		1A030B6A26AD2ABB0005CCAE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1D5C4826AB986A000FE4AA /* SwiftUI.framework */; };
+		1A030B6D26AD2ABB0005CCAE /* GraftonFoodWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A030B6C26AD2ABB0005CCAE /* GraftonFoodWidget.swift */; };
+		1A030B6F26AD2ABF0005CCAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A030B6E26AD2ABF0005CCAE /* Assets.xcassets */; };
+		1A030B7326AD2ABF0005CCAE /* GraftonFoodWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A030B6826AD2ABB0005CCAE /* GraftonFoodWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1A030B7726AD2C540005CCAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C1426AB716F000FE4AA /* ViewController.swift */; };
+		1A030B7826AD2C580005CCAE /* processMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C5D26ABAF30000FE4AA /* processMenu.swift */; };
+		1A030B7926AD2C5B0005CCAE /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A030B6226AD26740005CCAE /* SettingsController.swift */; };
+		1A030B7C26AD63C50005CCAE /* processMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C5D26ABAF30000FE4AA /* processMenu.swift */; };
+		1A030B7D26AD65730005CCAE /* menu.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D5C6C26ABBA5E000FE4AA /* menu.csv */; };
 		1A1D5C1126AB716F000FE4AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C1026AB716F000FE4AA /* AppDelegate.swift */; };
 		1A1D5C1326AB716F000FE4AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C1226AB716F000FE4AA /* SceneDelegate.swift */; };
 		1A1D5C1526AB716F000FE4AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C1426AB716F000FE4AA /* ViewController.swift */; };
@@ -15,9 +26,31 @@
 		1A1D5C1D26AB7170000FE4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D5C1B26AB7170000FE4AA /* LaunchScreen.storyboard */; };
 		1A1D5C2826AB7170000FE4AA /* GraftonFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C2726AB7170000FE4AA /* GraftonFoodTests.swift */; };
 		1A1D5C3326AB7170000FE4AA /* GraftonFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C3226AB7170000FE4AA /* GraftonFoodUITests.swift */; };
+		1A1D5C5E26ABAF30000FE4AA /* processMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C5D26ABAF30000FE4AA /* processMenu.swift */; };
+		1A1D5C5F26ABB3D4000FE4AA /* processMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C5D26ABAF30000FE4AA /* processMenu.swift */; };
+		1A1D5C6D26ABBA5E000FE4AA /* menu.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D5C6C26ABBA5E000FE4AA /* menu.csv */; };
+		1A1D5C6E26ABBA5E000FE4AA /* menu.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D5C6C26ABBA5E000FE4AA /* menu.csv */; };
+		1A1D5C6F26ABBA5E000FE4AA /* menu.csv in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D5C6C26ABBA5E000FE4AA /* menu.csv */; };
+		1A39ED2226BDE2E50083A3BC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A39ED2126BDE2E50083A3BC /* MenuController.swift */; };
+		1A39ED2326BE21590083A3BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C1426AB716F000FE4AA /* ViewController.swift */; };
+		1A39ED2426BE21590083A3BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1D5C1426AB716F000FE4AA /* ViewController.swift */; };
+		1A39ED2526BE215C0083A3BC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A39ED2126BDE2E50083A3BC /* MenuController.swift */; };
+		1A39ED2626BE215C0083A3BC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A39ED2126BDE2E50083A3BC /* MenuController.swift */; };
+		1A39ED2726BE215D0083A3BC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A39ED2126BDE2E50083A3BC /* MenuController.swift */; };
+		1ABDEA9D26BF9AC6004A9995 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDEA9C26BF9AC6004A9995 /* logo.png */; };
+		1ABDEA9E26BF9AC6004A9995 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDEA9C26BF9AC6004A9995 /* logo.png */; };
+		1ABDEA9F26BF9AC6004A9995 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDEA9C26BF9AC6004A9995 /* logo.png */; };
+		1ABDEAA026BF9AC6004A9995 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDEA9C26BF9AC6004A9995 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1A030B7126AD2ABF0005CCAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A1D5C0526AB716F000FE4AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A030B6726AD2ABB0005CCAE;
+			remoteInfo = GraftonFoodWidgetExtension;
+		};
 		1A1D5C2426AB7170000FE4AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1A1D5C0526AB716F000FE4AA /* Project object */;
@@ -34,7 +67,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A1D5C5926AB986E000FE4AA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1A030B7326AD2ABF0005CCAE /* GraftonFoodWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1A030B6226AD26740005CCAE /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		1A030B6826AD2ABB0005CCAE /* GraftonFoodWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GraftonFoodWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A030B6C26AD2ABB0005CCAE /* GraftonFoodWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraftonFoodWidget.swift; sourceTree = "<group>"; };
+		1A030B6E26AD2ABF0005CCAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A030B7026AD2ABF0005CCAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A1D5C0D26AB716F000FE4AA /* GraftonFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraftonFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1D5C1026AB716F000FE4AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A1D5C1226AB716F000FE4AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,9 +101,24 @@
 		1A1D5C2E26AB7170000FE4AA /* GraftonFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraftonFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1D5C3226AB7170000FE4AA /* GraftonFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraftonFoodUITests.swift; sourceTree = "<group>"; };
 		1A1D5C3426AB7170000FE4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1D5C4626AB986A000FE4AA /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1A1D5C4826AB986A000FE4AA /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1A1D5C5D26ABAF30000FE4AA /* processMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = processMenu.swift; sourceTree = "<group>"; };
+		1A1D5C6C26ABBA5E000FE4AA /* menu.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menu.csv; sourceTree = "<group>"; };
+		1A39ED2126BDE2E50083A3BC /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		1ABDEA9C26BF9AC6004A9995 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1A030B6526AD2ABB0005CCAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A030B6A26AD2ABB0005CCAE /* SwiftUI.framework in Frameworks */,
+				1A030B6926AD2ABB0005CCAE /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A1D5C0A26AB716F000FE4AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +143,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A030B6B26AD2ABB0005CCAE /* GraftonFoodWidget */ = {
+			isa = PBXGroup;
+			children = (
+				1A030B6C26AD2ABB0005CCAE /* GraftonFoodWidget.swift */,
+				1A030B6E26AD2ABF0005CCAE /* Assets.xcassets */,
+				1A030B7026AD2ABF0005CCAE /* Info.plist */,
+			);
+			path = GraftonFoodWidget;
+			sourceTree = "<group>";
+		};
 		1A1D5C0426AB716F000FE4AA = {
 			isa = PBXGroup;
 			children = (
 				1A1D5C0F26AB716F000FE4AA /* GraftonFood */,
 				1A1D5C2626AB7170000FE4AA /* GraftonFoodTests */,
 				1A1D5C3126AB7170000FE4AA /* GraftonFoodUITests */,
+				1A030B6B26AD2ABB0005CCAE /* GraftonFoodWidget */,
+				1A1D5C4526AB986A000FE4AA /* Frameworks */,
 				1A1D5C0E26AB716F000FE4AA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +171,7 @@
 				1A1D5C0D26AB716F000FE4AA /* GraftonFood.app */,
 				1A1D5C2326AB7170000FE4AA /* GraftonFoodTests.xctest */,
 				1A1D5C2E26AB7170000FE4AA /* GraftonFoodUITests.xctest */,
+				1A030B6826AD2ABB0005CCAE /* GraftonFoodWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +179,18 @@
 		1A1D5C0F26AB716F000FE4AA /* GraftonFood */ = {
 			isa = PBXGroup;
 			children = (
+				1A1D5C6C26ABBA5E000FE4AA /* menu.csv */,
 				1A1D5C1026AB716F000FE4AA /* AppDelegate.swift */,
 				1A1D5C1226AB716F000FE4AA /* SceneDelegate.swift */,
 				1A1D5C1426AB716F000FE4AA /* ViewController.swift */,
 				1A1D5C1626AB716F000FE4AA /* Main.storyboard */,
+				1ABDEA9C26BF9AC6004A9995 /* logo.png */,
 				1A1D5C1926AB7170000FE4AA /* Assets.xcassets */,
 				1A1D5C1B26AB7170000FE4AA /* LaunchScreen.storyboard */,
 				1A1D5C1E26AB7170000FE4AA /* Info.plist */,
+				1A1D5C5D26ABAF30000FE4AA /* processMenu.swift */,
+				1A030B6226AD26740005CCAE /* SettingsController.swift */,
+				1A39ED2126BDE2E50083A3BC /* MenuController.swift */,
 			);
 			path = GraftonFood;
 			sourceTree = "<group>";
@@ -128,9 +213,35 @@
 			path = GraftonFoodUITests;
 			sourceTree = "<group>";
 		};
+		1A1D5C4526AB986A000FE4AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A1D5C4626AB986A000FE4AA /* WidgetKit.framework */,
+				1A1D5C4826AB986A000FE4AA /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1A030B6726AD2ABB0005CCAE /* GraftonFoodWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A030B7426AD2ABF0005CCAE /* Build configuration list for PBXNativeTarget "GraftonFoodWidgetExtension" */;
+			buildPhases = (
+				1A030B6426AD2ABB0005CCAE /* Sources */,
+				1A030B6526AD2ABB0005CCAE /* Frameworks */,
+				1A030B6626AD2ABB0005CCAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraftonFoodWidgetExtension;
+			productName = GraftonFoodWidgetExtension;
+			productReference = 1A030B6826AD2ABB0005CCAE /* GraftonFoodWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		1A1D5C0C26AB716F000FE4AA /* GraftonFood */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A1D5C3726AB7170000FE4AA /* Build configuration list for PBXNativeTarget "GraftonFood" */;
@@ -138,10 +249,12 @@
 				1A1D5C0926AB716F000FE4AA /* Sources */,
 				1A1D5C0A26AB716F000FE4AA /* Frameworks */,
 				1A1D5C0B26AB716F000FE4AA /* Resources */,
+				1A1D5C5926AB986E000FE4AA /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1A030B7226AD2ABF0005CCAE /* PBXTargetDependency */,
 			);
 			name = GraftonFood;
 			productName = GraftonFood;
@@ -193,6 +306,9 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					1A030B6726AD2ABB0005CCAE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					1A1D5C0C26AB716F000FE4AA = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -222,17 +338,30 @@
 				1A1D5C0C26AB716F000FE4AA /* GraftonFood */,
 				1A1D5C2226AB7170000FE4AA /* GraftonFoodTests */,
 				1A1D5C2D26AB7170000FE4AA /* GraftonFoodUITests */,
+				1A030B6726AD2ABB0005CCAE /* GraftonFoodWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1A030B6626AD2ABB0005CCAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A030B6F26AD2ABF0005CCAE /* Assets.xcassets in Resources */,
+				1A030B7D26AD65730005CCAE /* menu.csv in Resources */,
+				1ABDEAA026BF9AC6004A9995 /* logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A1D5C0B26AB716F000FE4AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1A1D5C1D26AB7170000FE4AA /* LaunchScreen.storyboard in Resources */,
+				1ABDEA9D26BF9AC6004A9995 /* logo.png in Resources */,
 				1A1D5C1A26AB7170000FE4AA /* Assets.xcassets in Resources */,
+				1A1D5C6D26ABBA5E000FE4AA /* menu.csv in Resources */,
 				1A1D5C1826AB716F000FE4AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +370,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABDEA9E26BF9AC6004A9995 /* logo.png in Resources */,
+				1A1D5C6E26ABBA5E000FE4AA /* menu.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +379,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ABDEA9F26BF9AC6004A9995 /* logo.png in Resources */,
+				1A1D5C6F26ABBA5E000FE4AA /* menu.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1A030B6426AD2ABB0005CCAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A39ED2726BE215D0083A3BC /* MenuController.swift in Sources */,
+				1A030B7926AD2C5B0005CCAE /* SettingsController.swift in Sources */,
+				1A030B7726AD2C540005CCAE /* ViewController.swift in Sources */,
+				1A030B6D26AD2ABB0005CCAE /* GraftonFoodWidget.swift in Sources */,
+				1A030B7826AD2C580005CCAE /* processMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A1D5C0926AB716F000FE4AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A030B6326AD26740005CCAE /* SettingsController.swift in Sources */,
 				1A1D5C1526AB716F000FE4AA /* ViewController.swift in Sources */,
 				1A1D5C1126AB716F000FE4AA /* AppDelegate.swift in Sources */,
 				1A1D5C1326AB716F000FE4AA /* SceneDelegate.swift in Sources */,
+				1A39ED2226BDE2E50083A3BC /* MenuController.swift in Sources */,
+				1A1D5C5E26ABAF30000FE4AA /* processMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +416,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A39ED2526BE215C0083A3BC /* MenuController.swift in Sources */,
+				1A39ED2326BE21590083A3BC /* ViewController.swift in Sources */,
+				1A1D5C5F26ABB3D4000FE4AA /* processMenu.swift in Sources */,
 				1A1D5C2826AB7170000FE4AA /* GraftonFoodTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +427,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A39ED2626BE215C0083A3BC /* MenuController.swift in Sources */,
+				1A39ED2426BE21590083A3BC /* ViewController.swift in Sources */,
+				1A030B7C26AD63C50005CCAE /* processMenu.swift in Sources */,
 				1A1D5C3326AB7170000FE4AA /* GraftonFoodUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +437,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1A030B7226AD2ABF0005CCAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A030B6726AD2ABB0005CCAE /* GraftonFoodWidgetExtension */;
+			targetProxy = 1A030B7126AD2ABF0005CCAE /* PBXContainerItemProxy */;
+		};
 		1A1D5C2526AB7170000FE4AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1A1D5C0C26AB716F000FE4AA /* GraftonFood */;
@@ -315,6 +474,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1A030B7526AD2ABF0005CCAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LAXP25MJ5;
+				INFOPLIST_FILE = GraftonFoodWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Trigonix.GraftonFood.GraftonFoodWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A030B7626AD2ABF0005CCAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6LAXP25MJ5;
+				INFOPLIST_FILE = GraftonFoodWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Trigonix.GraftonFood.GraftonFoodWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1A1D5C3526AB7170000FE4AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -434,6 +635,7 @@
 		1A1D5C3826AB7170000FE4AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +655,7 @@
 		1A1D5C3926AB7170000FE4AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +759,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1A030B7426AD2ABF0005CCAE /* Build configuration list for PBXNativeTarget "GraftonFoodWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A030B7526AD2ABF0005CCAE /* Debug */,
+				1A030B7626AD2ABF0005CCAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1A1D5C0826AB716F000FE4AA /* Build configuration list for PBXProject "GraftonFood" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
