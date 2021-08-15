@@ -58,12 +58,24 @@ struct GraftonFoodWidgetEntryView : View {
         Color("background color")
         VStack {
             Text(entry.title)
-            .font(.system(size: 30))
+                .bold()
+                //.minimumScaleFactor(0.0005)
+                .font(.system(size: 20))
+                .scaledToFill()
+                .padding(1)
+                .minimumScaleFactor(0.5)
+                .foregroundColor(Color("text color"))
             Text(entry.body)
-            .font(.headline)
-            .multilineTextAlignment(.center)
-            .padding(2)
-        }.padding(2)
+                .font(.system(size: 15))
+                //.multilineTextAlignment(.center)
+                //.scaledToFill()
+                .lineLimit(3)
+                .minimumScaleFactor(0.5)
+                .foregroundColor(Color("text color"))
+                .padding(1)
+        }
+        .padding(2)
+        .environment(\.sizeCategory, .extraLarge)
       }
     }
 }
@@ -80,7 +92,7 @@ struct GraftonFoodWidget: Widget {
             GraftonFoodWidgetEntryView(entry: entry)
         }
         .configurationDisplayName("Grafton Food Widget")
-        .description("Widget to show what the next meal is.")
+        .description("Quick and easy way to see what the next meal is.")
         .supportedFamilies([.systemSmall, .systemMedium])
     }
 }

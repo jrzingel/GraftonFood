@@ -36,6 +36,5 @@ class MenuController: UITableViewController {
 
 
 class CellController: UITableViewCell {
-    
-    
 }
+

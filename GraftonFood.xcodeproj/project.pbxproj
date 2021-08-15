@@ -37,6 +37,9 @@
 		1A39ED2526BE215C0083A3BC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A39ED2126BDE2E50083A3BC /* MenuController.swift */; };
 		1A39ED2626BE215C0083A3BC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A39ED2126BDE2E50083A3BC /* MenuController.swift */; };
 		1A39ED2726BE215D0083A3BC /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A39ED2126BDE2E50083A3BC /* MenuController.swift */; };
+		1A56F1AF26C655C100DDE7E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D5C1926AB7170000FE4AA /* Assets.xcassets */; };
+		1A56F1B026C655C200DDE7E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D5C1926AB7170000FE4AA /* Assets.xcassets */; };
+		1A56F1B126C655C200DDE7E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A1D5C1926AB7170000FE4AA /* Assets.xcassets */; };
 		1ABDEA9D26BF9AC6004A9995 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDEA9C26BF9AC6004A9995 /* logo.png */; };
 		1ABDEA9E26BF9AC6004A9995 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDEA9C26BF9AC6004A9995 /* logo.png */; };
 		1ABDEA9F26BF9AC6004A9995 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ABDEA9C26BF9AC6004A9995 /* logo.png */; };
@@ -350,6 +353,7 @@
 			files = (
 				1A030B6F26AD2ABF0005CCAE /* Assets.xcassets in Resources */,
 				1A030B7D26AD65730005CCAE /* menu.csv in Resources */,
+				1A56F1B126C655C200DDE7E9 /* Assets.xcassets in Resources */,
 				1ABDEAA026BF9AC6004A9995 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ABDEA9E26BF9AC6004A9995 /* logo.png in Resources */,
+				1A56F1AF26C655C100DDE7E9 /* Assets.xcassets in Resources */,
 				1A1D5C6E26ABBA5E000FE4AA /* menu.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ABDEA9F26BF9AC6004A9995 /* logo.png in Resources */,
+				1A56F1B026C655C200DDE7E9 /* Assets.xcassets in Resources */,
 				1A1D5C6F26ABBA5E000FE4AA /* menu.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
