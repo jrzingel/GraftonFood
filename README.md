@@ -10,6 +10,6 @@ Also includes dark mode  🌙
 Screenshots
 ------------
 
-![alt text](screenshots/menu.png "Home screen")
-![alt text](screenshots/dark_mode.png "Dark mode View")
-![alt text](screenshots/widget.png "Widget View")
+![alt text](Screenshots/menu.png "Home screen")
+![alt text](Screenshots/dark_mode.png "Dark mode View")
+![alt text](Screenshots/widget.png "Widget View")
